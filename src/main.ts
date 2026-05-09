@@ -112,7 +112,7 @@ function renderProducts(products: Product[]) {
                 <div class="dessert-image" style="background-image: url('${imageUrl}')">
                     <div class="cart-component">
                         <div class="add-to-cart" onclick="addToCart('${dessert.name}', '${dessert.price.toFixed(2)}', '${dessert.quantity}', '${dessert.image.thumbnail}')" data-name="${dessert.name}">
-                                <img src="../assets/images/icon-add-to-cart.svg" alt="Add to cart icon" class="cart-icon">
+                                <img src="assets/images/icon-add-to-cart.svg" alt="Add to cart icon" class="cart-icon">
                             <p>Add to Cart</p>
                         </div>
                         <div class="quantity" data-name="${dessert.name}">
